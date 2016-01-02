@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git branch -r --merged | 
+git branch -r --merged origin/master | 
   grep origin | 
   grep -v '>' | 
   grep -v master | 
